@@ -125,6 +125,11 @@ namespace Drip
         public List<string> Tags { get; set; }
 
         /// <summary>
+        /// A list containing one or more tags. E.g. ["Customer", "SEO"].
+        /// </summary>
+        public List<string> RemoveTags { get; set; }
+
+        /// <summary>
         /// Optional. A new email address for the subscriber. If provided and a subscriber
         /// with the email does not exist, this address will be used to create a new subscriber.
         /// </summary>
